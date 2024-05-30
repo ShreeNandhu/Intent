@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <Absolutelayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        tools:ignore="Deprecated">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="28dp"
+            android:layout_y="122dp"
+            android:text="Roll number:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_x="132dp"
+            android:layout_y="113dp"
+            android:textColor="#000000"
+            android:textStyle="bold" >
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="45dp"
+            android:layout_y="74dp"
+            android:text="NAME:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="38dp"
+            android:layout_y="178dp"
+            android:text="TOTAL:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+
+
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_x="134dp"
+            android:layout_y="166dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_x="132dp"
+            android:layout_y="68dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_x="46dp"
+            android:layout_y="242dp"
+            android:background="#d63924"
+            android:text="CALCULATE PERCENTAGE"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="21dp"
+            android:layout_y="330dp"
+            android:text="PERCENTAGE:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_x="152dp"
+            android:layout_y="325dp"
+            android:textColor="#000000"
+            android:textStyle="bold">
+
+            <requestFocus />
+        </EditText>
+
+    </Absolutelayout>
